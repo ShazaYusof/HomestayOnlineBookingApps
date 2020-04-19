@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Malacca iHomeStay</string>
+    <string name="title_activity_login">Uset Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_key" translatable="false"> </string>
+
+
+    <string-array name="price">
+        <item>RM80-RM100 </item>
+        <item>RM110-RM200</item>
+        <item>RM210-RM300</item>
+    </string-array>
+
+    <string-array name="room">
+        <item>2-3</item>
+        <item>4-5</item>
+        <item>5-7</item>
+    </string-array>
+
+</resources>

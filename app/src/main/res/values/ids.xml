@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="date_title" type="id" />
+    <item name="date_value" type="id" />
+    <item name="date_click" type="id" />
+    <item name="day_title" type="id" />
+    <item name="day_value" type="id" />
+</resources>

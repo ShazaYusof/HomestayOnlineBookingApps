@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List.ListHostReview"
+    android:orientation="vertical"
+    android:background="@drawable/custom_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="REVIEW / RATE LIST"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/sadMan"
+        android:layout_width="184dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/cry"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/moment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="There is no review at this moment"
+        android:gravity="center"
+        android:textColor="@color/putih"
+        android:textSize="20sp"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerReview"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+        <!--<ListView-->
+        <!--android:id="@+id/ListCarApp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal">-->
+        <!--</ListView>-->
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

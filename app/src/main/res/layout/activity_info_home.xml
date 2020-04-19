@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoHomeActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/latar">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"/>
+
+    <HorizontalScrollView
+        android:id="@+id/categoryItem"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="8.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:src="@drawable/ic_home"
+                android:layout_marginRight="15dp"
+                android:layout_width="150dp"
+                android:layout_height="110dp" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:src="@drawable/ic_home"
+                android:layout_marginRight="15dp"
+                android:layout_width="150dp"
+                android:layout_height="110dp" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:src="@drawable/ic_home"
+                android:layout_marginRight="15dp"
+                android:layout_width="150dp"
+                android:layout_height="110dp" />
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:src="@drawable/ic_home"
+                android:layout_marginRight="15dp"
+                android:layout_width="150dp"
+                android:layout_height="110dp" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price per night : RM"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/hitam"/>
+
+    <ImageView
+        android:id="@+id/ivBed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_bed"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/ivToilet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_toilet"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address : "
+        android:gravity="center"
+        android:textColor="@color/hitam"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnBooking"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="BOOKING"
+        android:backgroundTint="@color/biru" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "787300622662",
+    "firebase_url": "https://malacca-ihomestay.firebaseio.com",
+    "project_id": "malacca-ihomestay",
+    "storage_bucket": "malacca-ihomestay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787300622662:android:606cfa8b6f148432",
+        "android_client_info": {
+          "package_name": "com.example.finalyearproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787300622662-m2h4vh4ftpa009mccdl44go6jti2ir6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABie7slnfKp0SaJ05_dGK949vxRdVMSsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787300622662-m2h4vh4ftpa009mccdl44go6jti2ir6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

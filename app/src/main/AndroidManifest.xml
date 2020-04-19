@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalyearproject">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logosistem"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".List.ListHostReview"></activity>
+        <activity
+            android:name=".List.ListBookingHistory"
+            android:parentActivityName=".HomeActivity"></activity>
+        <activity android:name=".HomestayBookingActivity" />
+        <activity
+            android:name=".List.ListHomestayMaps"
+            android:parentActivityName=".MapsActivity" />
+        <activity
+            android:name=".List.ListReview"
+            android:parentActivityName=".HomeHostActivity" />
+        <activity
+            android:name=".RateHomestay"
+            android:parentActivityName=".List.ListBookingHistory" />
+        <activity
+            android:name=".List.ListBooking"
+            android:parentActivityName=".HomeHostActivity" />
+        <activity
+            android:name=".ConfirmBooking"
+            android:parentActivityName=".ViewHomestayActivity" />
+        <activity
+            android:name=".SearchHomeActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".ViewHomestayActivity" />
+        <activity
+            android:name=".UpdateHostActivity"
+            android:parentActivityName=".HostProfileActivity" />
+        <activity
+            android:name=".HostProfileActivity"
+            android:parentActivityName=".HomeHostActivity" />
+        <activity
+            android:name=".BookingHouseActivity"
+            android:parentActivityName=".List.ListBooking" />
+        <activity
+            android:name=".InfoAppActivity"
+            android:parentActivityName=".List.ListBookingHistory" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UpdateHouseActivity"
+            android:parentActivityName=".HomeProfileActivity" />
+        <activity
+            android:name=".HomeProfileActivity"
+            android:parentActivityName=".HomeHostActivity" />
+        <activity android:name=".InfoHomeActivity" />
+        <activity
+            android:name=".RegisterHomestayActivity"
+            android:parentActivityName=".HomeProfileActivity" />
+        <activity
+            android:name=".UpdatePasswordActivity"
+            android:parentActivityName=".UpdateProfileActivity" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:parentActivityName=".ProfileActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".PasswordHostActivity"
+            android:parentActivityName=".Login02Activity" />
+        <activity
+            android:name=".PasswordActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".HomeHostActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".SignhostActivity"
+            android:parentActivityName=".Login02Activity" />
+        <activity
+            android:name=".Login02Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SignupActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

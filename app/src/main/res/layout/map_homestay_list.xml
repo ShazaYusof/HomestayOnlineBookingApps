@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    cardview:cardCornerRadius="10dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="132dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:src="@drawable/ic_home_sketch" />-->
+        <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <!--<ImageView-->
+                <!--android:layout_width="38dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:src="@drawable/ic_house" />-->
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:id="@+id/propertyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Property Name"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--<com.uncopt.android.widget.text.justify.JustifiedTextView-->
+            <!--android:id="@+id/address"-->
+            <!--android:layout_width="362dp"-->
+            <!--android:layout_height="27dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="Homestay Address"-->
+            <!--android:textColor="#A2A2A2"-->
+            <!--android:textSize="12dp" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/coin" />
+
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="156dp"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="RM150 per night"
+                    android:textColor="@color/hijau"
+                    android:textSize="14dp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:src="@drawable/ic_bed" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/bedCount"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:text="3"-->
+            <!--android:textSize="12dp" />-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:src="@drawable/ic_toilet" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/toiletCount"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:text="3"-->
+            <!--android:textSize="12dp" />-->
+
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

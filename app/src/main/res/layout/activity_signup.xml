@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/custom_background"
+    >
+
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="135dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/ic_profile"
+        android:layout_marginBottom="30dp"/>
+
+
+    <EditText
+        android:id="@+id/etuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:textColorHint="@color/putih"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <EditText
+        android:id="@+id/etuPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@color/putih"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <EditText
+        android:id="@+id/etuEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="@color/putih"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <EditText
+        android:id="@+id/etuPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:textColorHint="@color/putih"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/putih"
+        android:textSize="15sp"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+
+</LinearLayout>

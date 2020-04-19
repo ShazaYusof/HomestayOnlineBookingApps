@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#064033</color>
+    <color name="own">#4829e3</color>
+    <color name="button">#91c7b5</color>
+    <color name="hitam">#030303</color>
+    <color name="tajuk">#80a698</color>
+    <color name="putih">#ffffff</color>
+    <color name="cuba">#B6D9D9</color>
+    <color name="biru">#B6D9D9</color>
+    <color name="latar">#80a698</color>
+    <color name="kuning">#f2b007</color>
+    <color name="hijau">#7bb087</color>
+    <color name="biruC">#637499</color>
+    <color name="tata">#4e9899</color>
+
+</resources>
